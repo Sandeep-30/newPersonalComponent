@@ -32,7 +32,7 @@ the following form: YYYY.0M.0D.
 ### Updated
 - Selected the Pen Distribution Model for feasibility and faster feedback
 
-## 2025.11.07
+## 11/07/2025
 
 ### Added
 - Implemented PenNetworkSecondary abstract class

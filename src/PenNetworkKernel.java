@@ -6,7 +6,7 @@
  * @author Sandeep Venigandla
  * @version 2025.10.25
  */
-public interface PenDistributionKernel extends Standard<PenDistribution> {
+public interface PenNetworkKernel {
 
     /**
      * Adds (or restocks) a given quantity of a specific pen type to a given
