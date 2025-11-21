@@ -32,6 +32,15 @@ the following form: YYYY.0M.0D.
 ### Updated
 - Selected the Pen Distribution Model for feasibility and faster feedback
 
+## 11/07/2025
+
+### Added
+- Implemented PenNetworkSecondary abstract class
+- Added PenSKU and TransferPlan value object classes
+
+### Updated
+- Finished Part 4 of the Portfolio Project
+
 
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
