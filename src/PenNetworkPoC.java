@@ -35,8 +35,9 @@ public final class PenNetworkPoC {
 
         @Override
         public boolean equals(Object o) {
-            if (!(o instanceof PenSKU))
+            if (!(o instanceof PenSKU)) {
                 return false;
+            }
             PenSKU other = (PenSKU) o;
             return this.brand.equals(other.brand)
                     && this.name.equals(other.name)
@@ -81,8 +82,9 @@ public final class PenNetworkPoC {
         /** Reduce stock if possible; returns true if fulfilled. */
         public boolean takeStock(PenSKU sku, int qty) {
             int have = this.getQty(sku);
-            if (qty <= 0 || have < qty)
+            if (qty <= 0 || have < qty) {
                 return false;
+            }
             if (qty == have) {
                 this.inventory.remove(sku);
             } else {
@@ -127,12 +129,14 @@ public final class PenNetworkPoC {
          */
         public boolean requestTransfer(String fromId, String toId, PenSKU sku,
                 int qty) {
-            if (qty <= 0)
+            if (qty <= 0) {
                 return false;
+            }
             Shop from = this.getShopOrThrow(fromId);
             Shop to = this.getShopOrThrow(toId);
-            if (!from.takeStock(sku, qty))
+            if (!from.takeStock(sku, qty)) {
                 return false;
+            }
             to.addStock(sku, qty);
             return true;
         }
@@ -145,22 +149,25 @@ public final class PenNetworkPoC {
                 PenSKU sku, int minTarget) {
             Shop needy = this.getShopOrThrow(needyShopId);
             int have = needy.getQty(sku);
-            if (have >= minTarget)
+            if (have >= minTarget) {
                 return Optional.empty();
+            }
 
             String donorId = null;
             int donorQty = 0;
             for (Shop s : this.shops.values()) {
-                if (s == needy)
+                if (s == needy) {
                     continue;
+                }
                 int q = s.getQty(sku);
                 if (q > donorQty) {
                     donorQty = q;
                     donorId = s.id;
                 }
             }
-            if (donorId == null || donorQty == 0)
+            if (donorId == null || donorQty == 0) {
                 return Optional.empty();
+            }
 
             int needed = minTarget - have;
             int transferQty = Math.min(needed, donorQty);
