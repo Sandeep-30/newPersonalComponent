@@ -29,8 +29,14 @@ the following form: YYYY.0M.0D.
 - Implemented single-file MVP (`PenNetworkPoC.java`) with inventory, transfer, restock planning, and reporting
 - Demo `main` method showing multiple client-side use cases
 
+
 ### Updated
 - Selected the Pen Distribution Model for feasibility and faster feedback
+
+
+## 2025.MM.DD
+### Added
+- Implemented kernel for PenNetwork component
 
 
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
