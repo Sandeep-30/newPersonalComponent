@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Sandeep Venigandla
+- **Dot Number**: Venigandla.2
+- **Due Date**: 12/10/25
 
 ## Assignment Overview
 
@@ -307,18 +307,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+Before this project, my understanding in software development was only held to implementing specific parts of a code at a time but this project allowed me to understand the steps of approach to creating my own softwares which will proeve to be an essential skill in my future.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+I feel like this project did help address a few gaps in my understanding including testing without a reference implementation. Before in the semester i relied only on comparative testing but now that is not the case. I addressed these gaps by referring to course materials.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I think my perspective has matured from before. Software development feels less like an assignment and more about designing systems through my creativity which i find to be fun and challenging.  I very much do enjoy software development.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +326,32 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+I picked up a lot of technical and non-technical skills throughout this project. i imporved my skills in various areas like interface-driven design, layered abstractions, and state-based testing.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+1) Designed and implemented a reusable Java software component using interface-based abstraction
+
+2) Developed comprehensive JUnit test suites covering kernel, secondary, and standard methods
+
+3) Applied design-by-contract principles to ensure component correctness and robustness
+
+4) Used Git and GitHub to manage version control, branching, and pull requests
+
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+This project further enhanced my love for Computer Science particulary in back end and system oriented work.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To continue on this path i need to work on more personal projects to discover new things in this field. Furthermore I'd like to get an internship to get actual work experience. Some mentors I'd contact on the way would be my professors and TAs from CSE 2231
 
 ### Changelog
 
